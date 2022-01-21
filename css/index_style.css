@@ -5,3 +5,35 @@
 body{
 background-color: rgb(173, 173, 19);
 }
+
+header {
+    display: grid;
+    grid-template-columns: 890px 50px 50px 50px;
+    grid-template-rows: 50px;
+  }
+  #Logo{
+      width: px;
+      height: 40px;
+      border-radius:30%;
+      border: 5px black;
+  }
+
+  #faceboock{
+      width: 30px;
+      height: 30px;
+      border-radius: 70%;
+  }
+  #whatsapp{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+  }
+
+  #twitter{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+  }
+  header div {
+      border: 4px black;
+  }
