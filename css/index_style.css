@@ -37,3 +37,17 @@ header {
   header div {
       border: 4px black;
   }
+
+  nav{
+      display: grid;
+      grid-template-columns: 341px 341px 341px 341px;
+  }
+
+  nav div{
+      border: black solid 2px;
+      text-align: center;
+  }
+
+  nav :hover{
+      background-color: rgb(236, 223, 34);
+  }
