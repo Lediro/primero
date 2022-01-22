@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/login_style.css">
-    <link rel="stylesheet" href="css/login_style.css">
-
+    <link rel="stylesheet" href="css/login_style.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
   </head>
-  
+
   <body>
-    <h1>Login Materiales</h1>
-    <form>
-      <label id="usuario" for="Usuario">Usuario</label>
-      <input
-        type="text"
-        value=""
-        placeholder="Usuario"
-        name="Usuario"
-        required
-      /><br />
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        placeholder="Password"
-        maxlength="16"
-        minlength="8"
-        required
-      /><br />
-      <input type="button" value="Enviar" />
-    </form>
+    <div class="contenedor">
+      <div class="caja">
+      <h1>Login Materiales</h1><br><hr><br>
+      <form>
+        <label id="usuario" for="Usuario">Usuario: </label><br>
+        <input class="tex"
+          type="text"
+          value=""
+          placeholder="Usuario"
+          name="Usuario"
+          required
+        /><br /><br>
+        <label for="password">Password: </label><br>
+        <input class="tex"
+          type="password"
+          placeholder="Password"
+          maxlength="16"
+          minlength="8"
+          required
+        /><br /><br>
+        <input class="tex" type="button" value="Enviar" /><br /><br /><hr><br>
+        <a class="tex" href="./index.html">Ir a página principal</a>
+      </form>
+    </div>
+    </div>
   </body>
 </html>

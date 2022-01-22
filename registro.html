@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/registro_style.css">
-</head>
-<body>
-    <h1>Formato de Registro</h1>
-    <form action="">
-        <label id="nombre" for="Nombre">Nombre</label>
-        <input type="text" placeholder="Nombre" name="nombre" required><br>
+    <link rel="stylesheet" href="css/registro_style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="caja">
+        <h1>Formato de Registro</h1><br><hr><br>
+        <form>
+          <label  for="Nombre">Nombre:</label> <br>
+          <input class="tex"
+            type="text"
+            placeholder="Nombre"
+            name="nombre"
+            required
+          /><br /><br>
 
-        <label id="edad" for="Edad">Edad</label>
-        <input type="number" placeholder="Ingrese la edad" name="edad" required><br>
+          <label  for="Edad">Edad:</label><br>
+          <input class="tex"
+            type="number"
+            placeholder="Ingrese la edad"
+            name="edad"
+            required
+          /><br /><br>
 
-        <label id="telefono" for="Telefon">Teléfono</label>
-        <input type="text" placeholder="Número de teléfono" name="telefono" required><br>
+          <label  for="Telefon">Teléfono:</label><br>
+          <input class="tex"
+            type="text"
+            placeholder="Número de teléfono"
+            name="telefono"
+            required
+          /><br /><br>
 
-        <label id="direccion" for="Dirección">Dirección</label>
-        <input type="text" placeholder="Ingrese dirección" name="direccion" required><br>
+          <label  for="Dirección">Dirección:</label><br>
+          <input class="tex"
+            type="text"
+            placeholder="Ingrese dirección"
+            name="direccion"
+            required
+          /><br /><br>
 
-        <label id="email" for="email">email</label>
-        <input type="email" placeholder="Correo electrónico" name="email" required><br>
+          <label  for="email">email:</label><br>
+          <input class="tex"
+            type="email"
+            placeholder="Correo electrónico"
+            name="email"
+            required
+          /><br /><br>
 
-        <input type="button" value="Enviar" />
-
-    </form>
-    
-</body>
+          <input class="tex" type="button" value="Enviar" /><br><hr><br>
+          <a  class="tex" href="./index.html">Ir a página principal</a>
+ 
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
